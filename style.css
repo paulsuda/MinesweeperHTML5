@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+#board{
+  background: #eeeeee;
+  border: 1px solid blue;
+  width: 12em;
+  padding: 0em 0em 1.1em 0em;
+}
+
+.row{
+  clear: both;
+}
+
+.cell-empty, .cell-mine, .cell-flagged-mine, .cell-flagged-empty, .cell-cleared-0, .cell-cleared-1, .cell-cleared-2, .cell-cleared-3, .cell-cleared-4, .cell-cleared-5, .cell-cleared-6, .cell-cleared-7,
+cell-cleared-8{
+  border: 1px solid black;
+  width: 1em;
+  height: 1em;
+  float: left;
+  position: relative;
+}
+
+.cell-mine{
+}
+
+.cell-cleared-0, .cell-cleared-1, .cell-cleared-2, .cell-cleared-3, .cell-cleared-4, .cell-cleared-5, .cell-cleared-6, .cell-cleared-7,
+.cell-cleared-8{
+  border: 1px solid green;
+}
